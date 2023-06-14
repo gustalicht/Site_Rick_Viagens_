@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hotelaria - Acomodações</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Hotelaria</h1>
+  </header>
+
+  <section id="accommodations">
+    <div class="accommodation">
+      <h2>Quarto Standard</h2>
+      <p>Diária: R$ 200</p>
+      <label for="check-in">Data de Check-in:</label>
+      <input type="date" id="check-in">
+      <label for="check-out">Data de Check-out:</label>
+      <input type="date" id="check-out">
+      <button>Reservar</button>
+    </div>
+
+    <div class="accommodation">
+      <h2>Suíte Luxo</h2>
+      <p>Diária: R$ 400</p>
+      <label for="check-in">Data de Check-in:</label>
+      <input type="date" id="check-in">
+      <label for="check-out">Data de Check-out:</label>
+      <input type="date" id="check-out">
+      <button>Reservar</button>
+    </div>
+
+    <div class="accommodation">
+      <h2>Suíte Presidencial</h2>
+      <p>Diária: R$ 800</p>
+      <label for="check-in">Data de Check-in:</label>
+      <input type="date" id="check-in">
+      <label for="check-out">Data de Check-out:</label>
+      <input type="date" id="check-out">
+      <button>Reservar</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Hotelaria. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
